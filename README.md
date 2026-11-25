@@ -24,12 +24,12 @@ The objective of this assessment was to manually inspect HTTP traffic, identify 
 
 | ID | Vulnerability | Affected Area | Severity | Report |
 | :--- | :--- | :--- | :--- | :--- |
-| 01 | Reflected Cross-Site Scripting (XSS) | Search / Input Parameter | Medium | [View Report](findings/xss-finding.md) |
+| 01 | Reflected Cross-Site Scripting (XSS) | Search / Input Parameter | Medium | [View Report](findings/XSS-findings.md) |
 
 ## Repository Structure
 - `README.md` — Assessment overview, scope, methodology, and findings summary.
-- `findings/` — Detailed vulnerability report (`findings/xss-finding.md`).
-- `screenshots/` — Proof of Concept (PoC) screenshots from manual verification.
+- `findings/` — Detailed vulnerability report (`findings/XSS-findings.md`).
+- `screenshots/` — Proof of Concept (PoC) Screenshots from manual verification.
 
 ## Disclaimer
 All testing documented in this repository was conducted strictly against an authorized practice lab (`testfire.net`) for educational and portfolio purposes.
