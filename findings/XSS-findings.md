@@ -15,9 +15,9 @@ A Reflected Cross-Site Scripting (XSS) vulnerability was identified on **Altoro 
 4. Replay and verify the request and response in Burp Repeater to confirm consistent behavior.
 
 ## Proof of Concept (PoC)
-- **Browser Alert Execution:** ![XSS Alert Popup](../Screenshots/xss-alert-popup.jpeg)
-- **HTTP Request & Response:** ![XSS Request and Response](../Screenshots/xss-request-response.jpeg)
-
+- **Browser Alert Execution:** ![XSS Alert Popup](../Screenshots/xss-alert-popup.png.jpeg)
+- **HTTP Request & Response:** ![XSS Request and Response](../Screenshots/xss-request-response.png.jpeg)
+- 
 ## Impact
 An attacker could craft a malicious link containing an XSS payload and convince a victim to visit it, resulting in arbitrary JavaScript execution within the victim's browser session on that origin.
 
